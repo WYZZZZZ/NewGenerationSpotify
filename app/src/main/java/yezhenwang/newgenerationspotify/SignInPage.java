@@ -78,8 +78,11 @@ public class SignInPage extends AppCompatActivity {
     }
 
     public void databaseLogIn(View view) {
+<<<<<<< HEAD
         Intent intent = new Intent(this, MainPageActivity.class);
         startActivity(intent);
+=======
+>>>>>>> 6364af332a4b9630d4b3021abe991e5ad82b1c3a
     }
 }
 

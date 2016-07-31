@@ -8,9 +8,13 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
+<<<<<<< HEAD
     android:background="#000"
     tools:context="yezhenwang.newgenerationspotify.MainPageActivity"
     android:weightSum="1">
+=======
+    tools:context="yezhenwang.newgenerationspotify.MainPageActivity">
+>>>>>>> 6364af332a4b9630d4b3021abe991e5ad82b1c3a
 
     <TextView
         android:layout_width="match_parent"
@@ -19,6 +23,7 @@
         android:text="What&apos;s up, "
         android:id="@+id/greetings"
         android:layout_gravity="center_horizontal" />
+<<<<<<< HEAD
 
     <LinearLayout
         android:orientation="vertical"
@@ -60,4 +65,16 @@
         android:id="@+id/concerts"
         android:layout_gravity="center_horizontal" />
 
+=======
+<<<<<<< HEAD
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="yezhenwang.newgenerationspotify.ArtistPicFragment"
+        android:id="@+id/artist_pic_fragment"
+        android:layout_gravity="center_horizontal" />
+=======
+>>>>>>> 92d146395969b4e0906412cb729b5da00aec5de0
+>>>>>>> 6364af332a4b9630d4b3021abe991e5ad82b1c3a
 </LinearLayout>
