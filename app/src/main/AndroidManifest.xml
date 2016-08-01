@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="yezhenwang.newgenerationspotify">
 
-<<<<<<< HEAD
     <uses-sdk tools:overrideLibrary="com.facebook"/>
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
@@ -13,18 +12,14 @@
         android:name="android.permission.INTERNET"
         tools:overrideLibrary="android.support.customtabs" />
 
-=======
     <uses-sdk tools:overrideLibrary="com.facebook" />
 
-<<<<<<< HEAD
     <uses-permission android:name="android.permission.INTERNET"
         tools:overrideLibrary="android.support.customtabs" />
-=======
     <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-sdk tools:overrideLibrary="android.support.customtabs" />
->>>>>>> 92d146395969b4e0906412cb729b5da00aec5de0
->>>>>>> 6364af332a4b9630d4b3021abe991e5ad82b1c3a
+
 
     <application
         android:allowBackup="true"
@@ -35,10 +30,7 @@
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
-<<<<<<< HEAD
-=======
 
->>>>>>> 6364af332a4b9630d4b3021abe991e5ad82b1c3a
         <activity android:name=".SignInPage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,16 +38,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
 
-=======
->>>>>>> 6364af332a4b9630d4b3021abe991e5ad82b1c3a
         <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-<<<<<<< HEAD
 
         <activity android:name=".MainPageActivity" />
         <activity android:name=".ArtistActivity" />
@@ -64,9 +52,7 @@
 
         </activity>
 
-=======
         <activity android:name=".MainPageActivity"></activity>
->>>>>>> 6364af332a4b9630d4b3021abe991e5ad82b1c3a
     </application>
 
 </manifest>
